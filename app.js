@@ -6,6 +6,9 @@ const nodemailMailgun = require("nodemailer-mailgun-transport");
 const path = require("path");
 const app = express();
 
+// Global Variables
+const port = process.env.PORT || 3000;
+
 // Step 1
 const auth = {
   auth: {
@@ -66,6 +69,6 @@ app.post("/send", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("Server started...");
 });
