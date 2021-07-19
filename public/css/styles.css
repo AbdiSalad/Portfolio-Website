@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: #4070f4;
-  --second-color: #0e2431;
+  --first-color: #ffcc52;
+  --second-color: #14398f;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -382,6 +382,7 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
