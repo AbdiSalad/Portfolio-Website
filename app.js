@@ -53,7 +53,7 @@ app.post("/send", (req, res) => {
   // Step 3
   const mailOptions = {
     from: "Excited User <me@samples.mailgun.org>",
-    to: "abdurahman.salad@Hotmail.com, abdi@abdiworks.com",
+    to: "abdurahman.salad@Hotmail.com, abdiwaryasalad@gmail.com",
     subject: "Welcome to my App",
     text: output,
   };
